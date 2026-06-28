@@ -10,7 +10,7 @@ const translations = {
     nav_rooms: "Rooms",
     nav_staff: "Our Team",
 
-    hero_eyebrow: "Erbil · Kurdistan Region",
+    hero_eyebrow: "Duhok · Kurdistan Region",
     hero_title: "Where the Mountain<br><em>Meets Comfort</em>",
     hero_sub: "Affordable stays with warm hospitality, inspired by the spirit of Ararat.",
     cta_rooms: "Explore Rooms",
@@ -56,7 +56,7 @@ const translations = {
     cta_body: "Call us or walk in — we always have a room for a tired traveller.",
     cta_call: "📞 +964 750 123 4567",
 
-    footer_address: "Erbil, Kurdistan Region, Iraq",
+    footer_address: "Duhok, Kurdistan Region, Iraq",
     footer_rights: "All rights reserved.",
 
     // rooms.html
@@ -143,7 +143,7 @@ const translations = {
     nav_rooms: "الغرف",
     nav_staff: "فريقنا",
 
-    hero_eyebrow: "أربيل · إقليم كوردستان",
+    hero_eyebrow: "دهۆک · إقليم كوردستان",
     hero_title: "حيث يلتقي الجبل<br><em>بالراحة</em>",
     hero_sub: "إقامة بأسعار معقولة مع ضيافة دافئة، مستوحاة من روح جبل أرارات.",
     cta_rooms: "استكشف الغرف",
@@ -151,7 +151,7 @@ const translations = {
 
     badge_1star: "فندق نجمة واحدة",
     about_title: "بسيط. صادق. مرحّب.",
-    about_body: "يوفر فندق سويت أرارات غرفًا نظيفة ومريحة في قلب أربيل. نؤمن بأن كل مسافر يستحق راحة جيدة بسعر عادل — بدون مفاجآت، فقط ضيافة كوردية أصيلة.",
+    about_body: "يوفر فندق سويت أرارات غرفًا نظيفة ومريحة في قلب دهۆک. نؤمن بأن كل مسافر يستحق راحة جيدة بسعر عادل — بدون مفاجآت، فقط ضيافة كوردية أصيلة.",
 
     stat_rooms: "أنواع الغرف",
     stat_service: "ساعة خدمة",
@@ -189,7 +189,7 @@ const translations = {
     cta_body: "اتصل بنا أو تفضّل بالحضور — دائماً عندنا غرفة لمسافر متعب.",
     cta_call: "📞 +964 750 123 4567",
 
-    footer_address: "أربيل، إقليم كوردستان، العراق",
+    footer_address: "دهۆک، إقليم كوردستان، العراق",
     footer_rights: "جميع الحقوق محفوظة.",
 
     rooms_page_title: "غرفنا",
@@ -275,7 +275,7 @@ const translations = {
     nav_rooms: "ژوورەکان",
     nav_staff: "تیمەکەمان",
 
-    hero_eyebrow: "هەولێر · هەرێمی کوردستان",
+    hero_eyebrow: "دهۆک · هەرێمی کوردستان",
     hero_title: "کوێ چیا<br><em>بە ئاسایش دەکەوێت</em>",
     hero_sub: "مانەوەی بە نرخی گونجاو لەگەڵ میوانپەروەریی گەرم، ئیلهامگرتوو لە ئاراراتی گەورە.",
     cta_rooms: "ژوورەکان بکە",
@@ -321,7 +321,7 @@ const translations = {
     cta_body: "پەیوەندیمان پێوە بکە یان بێیە ژوورەکەت ڕادەستت دەکەین.",
     cta_call: "📞 +964 750 123 4567",
 
-    footer_address: "هەولێر، هەرێمی کوردستان، عێراق",
+    footer_address: "دهۆک، هەرێمی کوردستان، عێراق",
     footer_rights: "هەموو مافەکان پارێزراون.",
 
     rooms_page_title: "ژوورەکانمان",
