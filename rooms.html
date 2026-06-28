@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rooms – Suite Ararat Hotel</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-star">★</span>
+      <span class="logo-text">Suite Ararat</span>
+      <span class="logo-sub" data-key="hotel">Hotel</span>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html" class="nav-link" data-key="nav_home">Home</a>
+      <a href="rooms.html" class="nav-link active" data-key="nav_rooms">Rooms</a>
+      <a href="staff.html" class="nav-link" data-key="nav_staff">Our Team</a>
+    </nav>
+    <div class="lang-switcher">
+      <button class="lang-btn active" onclick="setLang('en')">EN</button>
+      <button class="lang-btn" onclick="setLang('ar')">عر</button>
+      <button class="lang-btn" onclick="setLang('ku')">کو</button>
+    </div>
+  </div>
+</header>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="page-hero-content">
+    <span class="eyebrow" data-key="rooms_eyebrow">Accommodation</span>
+    <h1 data-key="rooms_page_title">Our Rooms</h1>
+    <p data-key="rooms_page_sub">Three types. One promise: clean, comfortable, yours.</p>
+  </div>
+</section>
+
+<!-- ROOM 1: STANDARD -->
+<section class="room-detail" id="standard">
+  <div class="container">
+    <div class="room-detail-grid">
+      <div class="room-detail-visual standard-detail-img">
+        <div class="room-detail-badge">
+          <span class="badge-star">★</span>
+          <span data-key="tag_standard">Standard</span>
+        </div>
+      </div>
+      <div class="room-detail-info">
+        <span class="eyebrow" data-key="room_type_label">Room Type 01</span>
+        <h2 data-key="room_standard">Standard Room</h2>
+        <p class="room-detail-price">$25 <em data-key="per_night">/ night</em></p>
+        <p data-key="room_standard_long">Our Standard Room is designed for the traveller who values clean simplicity. Single or twin beds, a private bathroom, ceiling fan, and a window overlooking the courtyard. Everything you need, nothing you don't.</p>
+        <ul class="room-features">
+          <li data-key="feat_bed_single">Single or twin bed</li>
+          <li data-key="feat_bath">Private bathroom</li>
+          <li data-key="feat_wifi">Free Wi-Fi</li>
+          <li data-key="feat_ac">Air conditioning & fan</li>
+          <li data-key="feat_tv">TV</li>
+          <li data-key="feat_tea">Complimentary tea</li>
+        </ul>
+        <a href="tel:+9647501234567" class="btn-primary" data-key="book_now">Book Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ROOM 2: DELUXE -->
+<section class="room-detail alt-row" id="deluxe">
+  <div class="container">
+    <div class="room-detail-grid reverse">
+      <div class="room-detail-visual deluxe-detail-img">
+        <div class="room-detail-badge gold">
+          <span class="badge-star">★</span>
+          <span data-key="tag_deluxe">Deluxe</span>
+        </div>
+      </div>
+      <div class="room-detail-info">
+        <span class="eyebrow" data-key="room_type_label2">Room Type 02</span>
+        <h2 data-key="room_deluxe">Deluxe Room</h2>
+        <p class="room-detail-price">$40 <em data-key="per_night2">/ night</em></p>
+        <p data-key="room_deluxe_long">Step up to our Deluxe Room and enjoy more space, upgraded linen, a queen-size bed, and a partial city view. The private bathroom comes with hot shower, and we include a daily fruit basket with your stay.</p>
+        <ul class="room-features">
+          <li data-key="feat_queen">Queen-size bed</li>
+          <li data-key="feat_city_view">City view window</li>
+          <li data-key="feat_premium_bath">Premium bathroom, hot shower</li>
+          <li data-key="feat_wifi">Free Wi-Fi</li>
+          <li data-key="feat_ac">Air conditioning</li>
+          <li data-key="feat_fruit">Daily fruit basket</li>
+          <li data-key="feat_tv">TV</li>
+        </ul>
+        <a href="tel:+9647501234567" class="btn-primary" data-key="book_now">Book Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ROOM 3: SUITE -->
+<section class="room-detail" id="suite">
+  <div class="container">
+    <div class="room-detail-grid">
+      <div class="room-detail-visual suite-detail-img">
+        <div class="room-detail-badge dark">
+          <span class="badge-star">★</span>
+          <span data-key="tag_suite">Suite</span>
+        </div>
+      </div>
+      <div class="room-detail-info">
+        <span class="eyebrow" data-key="room_type_label3">Room Type 03</span>
+        <h2 data-key="room_suite">Ararat Suite</h2>
+        <p class="room-detail-price">$65 <em data-key="per_night3">/ night</em></p>
+        <p data-key="room_suite_long">The Ararat Suite is our crown offering. A spacious sitting area, a king-size bed, panoramic mountain-view window, bathtub, and premium hand-picked furnishings inspired by the mountains of Kurdistan. The pinnacle of Suite Ararat hospitality.</p>
+        <ul class="room-features">
+          <li data-key="feat_king">King-size bed</li>
+          <li data-key="feat_sitting">Separate sitting area</li>
+          <li data-key="feat_panorama">Panoramic mountain-view window</li>
+          <li data-key="feat_bathtub">Bathtub + hot shower</li>
+          <li data-key="feat_premium_linen">Premium linen & towels</li>
+          <li data-key="feat_wifi">Free Wi-Fi</li>
+          <li data-key="feat_minibar">Complimentary mini-bar</li>
+          <li data-key="feat_breakfast">Breakfast included</li>
+        </ul>
+        <a href="tel:+9647501234567" class="btn-primary" data-key="book_now">Book Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARISON TABLE -->
+<section class="compare-section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" data-key="compare_eyebrow">At a Glance</span>
+      <h2 data-key="compare_title">Room Comparison</h2>
+    </div>
+    <div class="table-wrap">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th data-key="compare_feature">Feature</th>
+            <th data-key="tag_standard">Standard</th>
+            <th class="highlight-col" data-key="tag_deluxe">Deluxe</th>
+            <th data-key="tag_suite">Suite</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td data-key="compare_price">Price / Night</td><td>$25</td><td class="highlight-col">$40</td><td>$65</td></tr>
+          <tr><td data-key="compare_bed">Bed Size</td><td data-key="single_twin">Single/Twin</td><td class="highlight-col" data-key="queen">Queen</td><td data-key="king">King</td></tr>
+          <tr><td data-key="compare_view">View</td><td data-key="courtyard">Courtyard</td><td class="highlight-col" data-key="city">City</td><td data-key="mountain">Mountain</td></tr>
+          <tr><td data-key="compare_bath">Bathroom</td><td>✓</td><td class="highlight-col">✓</td><td>✓ + Tub</td></tr>
+          <tr><td data-key="compare_wifi">Wi-Fi</td><td>✓</td><td class="highlight-col">✓</td><td>✓</td></tr>
+          <tr><td data-key="compare_breakfast">Breakfast</td><td>—</td><td class="highlight-col">—</td><td>✓</td></tr>
+          <tr><td data-key="compare_minibar">Mini-bar</td><td>—</td><td class="highlight-col">—</td><td>✓</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <h2 data-key="cta_title">Ready to Rest?</h2>
+    <p data-key="cta_body">Call us or walk in — we always have a room for a tired traveller.</p>
+    <a href="tel:+9647501234567" class="btn-primary" data-key="cta_call">📞 +964 750 123 4567</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <span class="logo-star">★</span>
+      <span class="footer-name">Suite Ararat Hotel</span>
+      <p class="footer-address" data-key="footer_address">Erbil, Kurdistan Region, Iraq</p>
+    </div>
+    <div class="footer-links">
+      <a href="index.html" data-key="nav_home">Home</a>
+      <a href="rooms.html" data-key="nav_rooms">Rooms</a>
+      <a href="staff.html" data-key="nav_staff">Our Team</a>
+    </div>
+    <p class="footer-copy">© 2026 Suite Ararat Hotel. <span data-key="footer_rights">All rights reserved.</span></p>
+  </div>
+</footer>
+
+<script src="lang.js"></script>
+</body>
+</html>

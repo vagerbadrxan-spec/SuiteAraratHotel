@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Team – Suite Ararat Hotel</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-star">★</span>
+      <span class="logo-text">Suite Ararat</span>
+      <span class="logo-sub" data-key="hotel">Hotel</span>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html" class="nav-link" data-key="nav_home">Home</a>
+      <a href="rooms.html" class="nav-link" data-key="nav_rooms">Rooms</a>
+      <a href="staff.html" class="nav-link active" data-key="nav_staff">Our Team</a>
+    </nav>
+    <div class="lang-switcher">
+      <button class="lang-btn active" onclick="setLang('en')">EN</button>
+      <button class="lang-btn" onclick="setLang('ar')">عر</button>
+      <button class="lang-btn" onclick="setLang('ku')">کو</button>
+    </div>
+  </div>
+</header>
+
+<!-- PAGE HERO -->
+<section class="page-hero staff-hero">
+  <div class="page-hero-content">
+    <span class="eyebrow" data-key="team_eyebrow">People</span>
+    <h1 data-key="team_page_title">Our Team</h1>
+    <p data-key="team_page_sub">The heart of Suite Ararat — warm hands and honest smiles.</p>
+  </div>
+</section>
+
+<!-- MANAGER SPOTLIGHT -->
+<section class="manager-section">
+  <div class="container">
+    <div class="manager-grid">
+      <div class="manager-photo">
+        <div class="manager-avatar">
+          <span class="avatar-icon">👨‍💼</span>
+        </div>
+        <div class="manager-badge" data-key="manager_badge">General Manager</div>
+      </div>
+      <div class="manager-info">
+        <span class="eyebrow" data-key="manager_eyebrow">Leadership</span>
+        <h2 data-key="manager_name">Mr. Karwan Salih</h2>
+        <p class="manager-quote" data-key="manager_quote">"A hotel is not four walls. It is the first warm hand you shake in a new city."</p>
+        <p data-key="manager_bio">Karwan Salih has been the driving force behind Suite Ararat Hotel since its founding. A native of Erbil and graduate of hospitality management, he built this hotel on a single conviction: that dignity and comfort should not be reserved for luxury budgets. He personally trains every staff member and greets guests at the door on his best days.</p>
+        <div class="manager-meta">
+          <div class="meta-item">
+            <span class="meta-label" data-key="meta_exp">Experience</span>
+            <span class="meta-val">14 <span data-key="meta_years">Years</span></span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label" data-key="meta_lang">Languages</span>
+            <span class="meta-val" data-key="meta_langs_val">Kurdish, Arabic, English</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STAFF GRID -->
+<section class="staff-section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" data-key="staff_eyebrow">The Team</span>
+      <h2 data-key="staff_title">Meet the Staff</h2>
+      <p class="section-intro" data-key="staff_intro">Every member of our team is chosen for one quality above all: the genuine desire to make your stay better.</p>
+    </div>
+
+    <div class="staff-grid">
+
+      <div class="staff-card">
+        <div class="staff-avatar receptionist">
+          <span>👩‍💻</span>
+        </div>
+        <h3 data-key="staff1_name">Shirin Ahmed</h3>
+        <p class="staff-role" data-key="staff1_role">Head Receptionist</p>
+        <p class="staff-bio" data-key="staff1_bio">First face, last goodbye. Shirin handles check-ins, questions, and everything in between with a calm efficiency guests always remember.</p>
+      </div>
+
+      <div class="staff-card">
+        <div class="staff-avatar housekeeper">
+          <span>🧹</span>
+        </div>
+        <h3 data-key="staff2_name">Dilan Mustafa</h3>
+        <p class="staff-role" data-key="staff2_role">Head of Housekeeping</p>
+        <p class="staff-bio" data-key="staff2_bio">Dilan leads our cleaning crew with military precision. If a room is not spotless, it does not leave her hands. Her standard is the hotel's standard.</p>
+      </div>
+
+      <div class="staff-card">
+        <div class="staff-avatar cook">
+          <span>🍳</span>
+        </div>
+        <h3 data-key="staff3_name">Omar Hassan</h3>
+        <p class="staff-role" data-key="staff3_role">Breakfast Cook</p>
+        <p class="staff-bio" data-key="staff3_bio">Omar's morning spread is legendary among repeat guests. Eggs, flatbread, honey, olives — simple Kurdish breakfast done perfectly every morning.</p>
+      </div>
+
+      <div class="staff-card">
+        <div class="staff-avatar porter">
+          <span>🧳</span>
+        </div>
+        <h3 data-key="staff4_name">Rauf Ibrahim</h3>
+        <p class="staff-role" data-key="staff4_role">Concierge & Porter</p>
+        <p class="staff-bio" data-key="staff4_bio">Rauf knows Erbil like the back of his hand. Need a taxi, a good restaurant, or directions to the Citadel? He is your man, always ready to help.</p>
+      </div>
+
+      <div class="staff-card">
+        <div class="staff-avatar security">
+          <span>🛡️</span>
+        </div>
+        <h3 data-key="staff5_name">Serwan Khalid</h3>
+        <p class="staff-role" data-key="staff5_role">Night Security</p>
+        <p class="staff-bio" data-key="staff5_bio">Serwan keeps watch so you can sleep easy. Stationed from 10 pm to 6 am, he ensures every guest feels safe and the premises are secure.</p>
+      </div>
+
+      <div class="staff-card">
+        <div class="staff-avatar maintenance">
+          <span>🔧</span>
+        </div>
+        <h3 data-key="staff6_name">Hiwa Aziz</h3>
+        <p class="staff-role" data-key="staff6_role">Maintenance</p>
+        <p class="staff-bio" data-key="staff6_bio">Leaky tap? Flickering light? Hiwa is the invisible hero who keeps every corner of the hotel running smoothly, day and night.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- VALUES STRIP -->
+<section class="values-section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" data-key="values_eyebrow">Our Values</span>
+      <h2 data-key="values_title">What We Stand For</h2>
+    </div>
+    <div class="values-grid">
+      <div class="value-item">
+        <span class="value-icon">🤝</span>
+        <h4 data-key="value1_title">Hospitality</h4>
+        <p data-key="value1_body">Kurdish hospitality is not a policy — it is a tradition. Every guest is treated like a guest of the family.</p>
+      </div>
+      <div class="value-item">
+        <span class="value-icon">✦</span>
+        <h4 data-key="value2_title">Honesty</h4>
+        <p data-key="value2_body">No hidden fees. No empty promises. What we say is what you get.</p>
+      </div>
+      <div class="value-item">
+        <span class="value-icon">🌿</span>
+        <h4 data-key="value3_title">Simplicity</h4>
+        <p data-key="value3_body">We are a 1-star hotel and proud of it. Excellence within simplicity is our craft.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <h2 data-key="cta_title">Ready to Rest?</h2>
+    <p data-key="cta_body">Call us or walk in — we always have a room for a tired traveller.</p>
+    <a href="tel:+9647501234567" class="btn-primary" data-key="cta_call">📞 +964 750 123 4567</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <span class="logo-star">★</span>
+      <span class="footer-name">Suite Ararat Hotel</span>
+      <p class="footer-address" data-key="footer_address">Erbil, Kurdistan Region, Iraq</p>
+    </div>
+    <div class="footer-links">
+      <a href="index.html" data-key="nav_home">Home</a>
+      <a href="rooms.html" data-key="nav_rooms">Rooms</a>
+      <a href="staff.html" data-key="nav_staff">Our Team</a>
+    </div>
+    <p class="footer-copy">© 2026 Suite Ararat Hotel. <span data-key="footer_rights">All rights reserved.</span></p>
+  </div>
+</footer>
+
+<script src="lang.js"></script>
+</body>
+</html>

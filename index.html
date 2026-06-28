@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Suite Ararat Hotel</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ── HEADER ── -->
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-star">★</span>
+      <span class="logo-text">Suite Ararat</span>
+      <span class="logo-sub" data-key="hotel">Hotel</span>
+    </a>
+
+    <nav class="main-nav">
+      <a href="index.html" class="nav-link active" data-key="nav_home">Home</a>
+      <a href="rooms.html" class="nav-link" data-key="nav_rooms">Rooms</a>
+      <a href="staff.html" class="nav-link" data-key="nav_staff">Our Team</a>
+    </nav>
+
+    <div class="lang-switcher">
+      <button class="lang-btn active" onclick="setLang('en')">EN</button>
+      <button class="lang-btn" onclick="setLang('ar')">عر</button>
+      <button class="lang-btn" onclick="setLang('ku')">کو</button>
+    </div>
+  </div>
+</header>
+
+<!-- ── HERO ── -->
+<section class="hero">
+  <div class="hero-overlay"></div>
+  <div class="mountain-silhouette"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow" data-key="hero_eyebrow">Erbil · Kurdistan Region</p>
+    <h1 class="hero-title" data-key="hero_title">Where the Mountain<br><em>Meets Comfort</em></h1>
+    <p class="hero-sub" data-key="hero_sub">Affordable stays with warm hospitality, inspired by the spirit of Ararat.</p>
+    <div class="hero-cta">
+      <a href="rooms.html" class="btn-primary" data-key="cta_rooms">Explore Rooms</a>
+      <a href="staff.html" class="btn-ghost" data-key="cta_team">Meet Our Team</a>
+    </div>
+  </div>
+  <div class="hero-scroll-hint">↓</div>
+</section>
+
+<!-- ── ABOUT STRIP ── -->
+<section class="about-strip">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-badge">
+        <span class="badge-star">★</span>
+        <span class="badge-label" data-key="badge_1star">1 Star Hotel</span>
+      </div>
+      <div class="about-text">
+        <h2 data-key="about_title">Simple. Honest. Welcoming.</h2>
+        <p data-key="about_body">Suite Ararat Hotel offers clean, comfortable rooms in the heart of Erbil. We believe every traveller deserves a good rest at a fair price — no frills, no surprises, just genuine Kurdish hospitality.</p>
+      </div>
+      <div class="about-stats">
+        <div class="stat">
+          <span class="stat-num">3</span>
+          <span class="stat-label" data-key="stat_rooms">Room Types</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">24</span>
+          <span class="stat-label" data-key="stat_service">Hr Service</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">∞</span>
+          <span class="stat-label" data-key="stat_tea">Free Tea</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── ROOMS PREVIEW ── -->
+<section class="rooms-preview">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" data-key="rooms_eyebrow">Accommodation</span>
+      <h2 data-key="rooms_title">Our Rooms</h2>
+    </div>
+    <div class="room-cards">
+      <a href="rooms.html#standard" class="room-card">
+        <div class="room-img standard-img">
+          <span class="room-tag" data-key="tag_standard">Standard</span>
+        </div>
+        <div class="room-info">
+          <h3 data-key="room_standard">Standard Room</h3>
+          <p data-key="room_standard_desc">Cozy single or double beds, essential amenities, quiet rest.</p>
+          <span class="room-price">$25 <em data-key="per_night">/ night</em></span>
+        </div>
+      </a>
+      <a href="rooms.html#deluxe" class="room-card featured">
+        <div class="room-img deluxe-img">
+          <span class="room-tag" data-key="tag_deluxe">Deluxe</span>
+        </div>
+        <div class="room-info">
+          <h3 data-key="room_deluxe">Deluxe Room</h3>
+          <p data-key="room_deluxe_desc">Extra space, city view, upgraded linen and private bath.</p>
+          <span class="room-price">$40 <em data-key="per_night2">/ night</em></span>
+        </div>
+      </a>
+      <a href="rooms.html#suite" class="room-card">
+        <div class="room-img suite-img">
+          <span class="room-tag" data-key="tag_suite">Suite</span>
+        </div>
+        <div class="room-info">
+          <h3 data-key="room_suite">Ararat Suite</h3>
+          <p data-key="room_suite_desc">Our finest room — sitting area, panoramic window, premium touches.</p>
+          <span class="room-price">$65 <em data-key="per_night3">/ night</em></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── AMENITIES ── -->
+<section class="amenities">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" data-key="amenities_eyebrow">Included</span>
+      <h2 data-key="amenities_title">What We Offer</h2>
+    </div>
+    <div class="amenity-list">
+      <div class="amenity-item">
+        <span class="amenity-icon">🍵</span>
+        <p data-key="amenity_tea">Free Chai & Tea</p>
+      </div>
+      <div class="amenity-item">
+        <span class="amenity-icon">🛜</span>
+        <p data-key="amenity_wifi">Free Wi-Fi</p>
+      </div>
+      <div class="amenity-item">
+        <span class="amenity-icon">🧹</span>
+        <p data-key="amenity_clean">Daily Housekeeping</p>
+      </div>
+      <div class="amenity-item">
+        <span class="amenity-icon">🔒</span>
+        <p data-key="amenity_safe">24/7 Security</p>
+      </div>
+      <div class="amenity-item">
+        <span class="amenity-icon">🅿️</span>
+        <p data-key="amenity_park">Free Parking</p>
+      </div>
+      <div class="amenity-item">
+        <span class="amenity-icon">🌅</span>
+        <p data-key="amenity_view">Mountain View Lobby</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── TESTIMONIAL ── -->
+<section class="testimonial-section">
+  <div class="container">
+    <blockquote class="testimonial">
+      <p data-key="testimonial_text">"Simple, clean, and the staff treated us like family. The tea in the morning was perfect. We will be back."</p>
+      <cite data-key="testimonial_author">— Ahmad K., Baghdad</cite>
+    </blockquote>
+  </div>
+</section>
+
+<!-- ── CTA BAND ── -->
+<section class="cta-band">
+  <div class="container">
+    <h2 data-key="cta_title">Ready to Rest?</h2>
+    <p data-key="cta_body">Call us or walk in — we always have a room for a tired traveller.</p>
+    <a href="tel:+9647501234567" class="btn-primary" data-key="cta_call">📞 +964 750 123 4567</a>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <span class="logo-star">★</span>
+      <span class="footer-name">Suite Ararat Hotel</span>
+      <p class="footer-address" data-key="footer_address">Erbil, Kurdistan Region, Iraq</p>
+    </div>
+    <div class="footer-links">
+      <a href="index.html" data-key="nav_home">Home</a>
+      <a href="rooms.html" data-key="nav_rooms">Rooms</a>
+      <a href="staff.html" data-key="nav_staff">Our Team</a>
+    </div>
+    <p class="footer-copy">© 2026 Suite Ararat Hotel. <span data-key="footer_rights">All rights reserved.</span></p>
+  </div>
+</footer>
+
+<script src="lang.js"></script>
+</body>
+</html>
